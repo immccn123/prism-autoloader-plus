@@ -1,0 +1,22 @@
+{
+  "name": "@immccn123/prism-autoloader-plus",
+  "version": "0.1.0",
+  "description": "A custom version of prism-autoloader",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -w -i 'src/main.js' -o 'prism-autoloader-plus.js' --format iife"
+  },
+  "keywords": [],
+  "author": "Imken Luo <me@imken.moe>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-strip": "^3.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/prismjs": "^1.26.1",
+    "rollup": "^4.0.2"
+  },
+  "dependencies": {
+    "prismjs": "^1.29.0"
+  }
+}

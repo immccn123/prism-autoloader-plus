@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "exactOptionalPropertyTypes": true,
+    "lib": ["es2022", "DOM"],
+    "module": "ESNext",
+    "skipLibCheck": false,
+    "strict": true,
+    "target": "ES2019"
+  },
+  "exclude": ["coverage/", "node_modules/", "prism-cpp-*.js", "*.min.js"],
+  "include": ["**/*.js", "lib/index.d.ts"]
+}

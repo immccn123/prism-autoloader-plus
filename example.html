@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Prism.js Autoload Example</title>
+    <link href="https://prismjs.com/themes/prism.css" rel="stylesheet" />
+  </head>
+  <body>
+    <pre><code class="language-doxycpp">/*!
+ * @param xxx uuu
+ */
+/// @return Null
+/**
+ * @warning Unstable API.
+ */
+//! \param value The original number.
+int square(int value) { return value * value; }
+
+/** @file include/vector
+ *  This is a Standard C++ Library header.
+ */</code></pre>
+    <pre><code class="language-cpp">/*!
+ *  @param xxx uuu
+ */
+/// @return Null
+/**
+ * @warning Unstable API.
+ */
+//! \param value The original number.
+int square(int value) { return value * value; }
+
+/** @file include/vector
+ *  This is a Standard C++ Library header.
+ */</code></pre>
+    <script src="https://unpkg.com/prismjs@1.29.0/components/prism-core.js"></script>
+    <script src="prism-autoloader-plus.js"></script>
+    <script>
+      Prism.plugins.autoloader.lang_dependencies = {
+        doxycpp: "cpp",
+      };
+      Prism.plugins.autoloader.lang_urls = {
+        doxycpp:
+          "//fastly.jsdelivr.net/npm/prism-cpp-doxygen/prism-cpp-doxygen.min.js",
+      };
+      Prism.plugins.autoloader.languages_path =
+        "https://unpkg.com/prismjs@1.29.0/components/";
+    </script>
+  </body>
+</html>
