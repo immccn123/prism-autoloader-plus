@@ -13,6 +13,8 @@ Usage:
 
 ```html
 <script src="prism-autoloader-plus.min.js"></script>
+<!-- or use CDN -->
+<script src="https://cdn.jsdelivr.net/npm/@immccn123/prism-autoloader-plus@{version}/prism-autoloader-plus.min.js"></script>
 ```
 
 See [offical document](https://prismjs.com/plugins/autoloader/) for basic usage.
