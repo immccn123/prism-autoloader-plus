@@ -2,3 +2,4 @@ example.html
 rollup.config.mjs
 
 *.tgz
+scripts/*
