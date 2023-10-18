@@ -1,6 +1,4 @@
 /**
- * The dependencies map is built automatically with gulp.
- *
  * @type {Object<string, string | string[]>}
  */
 export const lang_dependencies = {

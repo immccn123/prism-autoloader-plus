@@ -3,3 +3,4 @@ node_modules/
 prism-autoloader-plus.js
 
 *.tgz
+*.LEGAL.txt

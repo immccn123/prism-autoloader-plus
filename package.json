@@ -1,11 +1,11 @@
 {
   "name": "@immccn123/prism-autoloader-plus",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A custom version of prism-autoloader",
   "main": "index.js",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "watch": "esbuild src/main.js --bundle --outfile=prism-autoloader-plus.js --watch --serve --servedir=./ --target=safari11"
+    "watch": "esbuild src/main.js --bundle --outfile=prism-autoloader-plus.js --watch --serve --servedir=./ --target=safari12,chrome86"
   },
   "keywords": [
     "prismjs"

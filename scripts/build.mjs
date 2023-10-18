@@ -5,14 +5,17 @@ const buildTasks = [
     entryPoints: ["src/main.js"],
     bundle: true,
     outfile: "prism-autoloader-plus.js",
-    target: ["safari11", "chrome58", "firefox57"],
+    target: ["safari12", "chrome86"],
+    format: "iife",
   }),
   esbuild.build({
     entryPoints: ["src/main.js"],
     bundle: true,
     outfile: "prism-autoloader-plus.min.js",
     minify: true,
-    target: ["safari11", "chrome58", "firefox57"],
+    target: ["safari12", "chrome86"],
+    format: "iife",
+    legalComments: "linked",
   }),
 ];
 
